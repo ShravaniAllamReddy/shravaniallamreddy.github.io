@@ -35,6 +35,18 @@
         "name":"Fun things to do",
         "image":"/assets/img/party.jpg",
         "link":"https://ournewproject2.herokuapp.com/"
+    },
+    {
+        "id":7,
+        "name":"React Directory",
+        "image":"/assets/img/directory.png",
+        "link":"https://shravaniallamreddy.github.io/EmployeeDirectory/"
+    },
+    {
+        "id":8,
+        "name":"Budget Tracker",
+        "image":"/assets/img/budget.png",
+        "link":"https://fathomless-reaches-18510.herokuapp.com/"
     }
 
 ]
