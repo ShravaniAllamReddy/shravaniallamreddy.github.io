@@ -1,9 +1,8 @@
 
 import React from "react";
-// import { Link } from 'react-router-dom';
 import Footer from "../components/Footer";
-// import { SocialIcon} from "react-social-icons";
-import "../assets/css/style.css"
+
+
 
 function Contact() {
 
@@ -20,7 +19,7 @@ function Contact() {
                                         <h5 className="title-left primary">
                                             Contact
                                         </h5>
-                                    </div>
+                                    </div>  
                                     <div>
                                         <form>
                                             <div className="row">

@@ -1,9 +1,8 @@
 
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
 import projects from "../projects.json";
 import Card from "../components/Card";
-import "../assets/css/style.css";
+
 
 class Projects extends Component {
 

@@ -1,11 +1,11 @@
 
 import React from "react";
-import "../assets/css/style.css";
+
 
 
 function Card(props) {
 
-    console.log(props);
+    // console.log(props);
     return (
 
 
@@ -17,7 +17,7 @@ function Card(props) {
                         <img src={props.image} alt="description" width="250" height="250" className="img-responsive" />
                     </div>
 
-                    <h2 className="w-title">{props.title}</h2>
+                    <h2 className="w-title">{props.name}</h2>
 
                 </a>
             </div>

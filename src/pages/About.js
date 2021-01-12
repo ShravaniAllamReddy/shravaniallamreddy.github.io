@@ -1,8 +1,6 @@
 
 import React from "react";
 // import { Link } from 'react-router-dom';
-import dp from "../assets/img/dp.png";
-import "../assets/css/style.css"
 
 
 function About() {
@@ -12,7 +10,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={dp} alt="description" className="img-fluid intro-img" />
+                        <img src="/assets/img/dp.png" alt="description" className="img-fluid intro-img" />
                     </div>
                     <div className="col-lg-6">
                         <div className="intro-text-container">
@@ -20,7 +18,7 @@ function About() {
                             <p className="intro-text">
                                 I have been working in the IT Industry for 4 years in developing and supporting applications with
                                 the help of Shell,Perl scripts for automating daily activities which we do in production support.
-            </p>
+                            </p>
                             <p className="intro-text">
                                 I am enthusiastic towards thinking creatively at my daily work. I have found that learning
                                 web-development is challenging and encourages me to think out of the box in required
@@ -29,7 +27,7 @@ function About() {
                                 nurtured my inclination towards being a full stack developer.So, here I am at the Boot Camp at
                                 University of Arizona, building a career on my thoughts and ideas to be a Full Stack developer.
 
-            </p>
+                            </p>
                             <p className="intro-text">
                                 <a href="https://drive.google.com/file/d/1sXLvwZOsun3Aw9zuaVBPZ3hkfa6uyioD/view?usp=sharing"
                                     target="_blank" rel="noreferrer">Click Here to view my Resume</a>

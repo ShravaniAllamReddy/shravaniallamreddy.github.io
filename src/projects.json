@@ -3,37 +3,37 @@
     {
         "id":1,
         "name":"Day Planner",
-        "image":"https://shravaniallamreddy.github.io/img/dayplanner.JPG",
+        "image":"/assets/img/dayplanner.JPG",
         "link":"https://shravaniallamreddy.github.io/Work-Day-Scheduler/"
     },
     {
         "id":2,
         "name":"Earthy Burger",
-        "image":"https://shravaniallamreddy.github.io/img/burger.jpg",
+        "image":"/assets/img/burger.jpg",
         "link":"https://glacial-river-89645.herokuapp.com/"
     },
     {
         "id":3,
         "name":"Note Taker",
-        "image":"https://shravaniallamreddy.github.io/img/notetaker.jpg",
+        "image":"/assets/img/notetaker.jpg",
         "link":"https://desolate-island-95252.herokuapp.com/"
     },
     {
         "id":4,
         "name":"Weather Forecast",
-        "image":"https://shravaniallamreddy.github.io/img/fivedayforecast.JPG",
+        "image":"/assets/img/fivedayforecast.JPG",
         "link":"https://shravaniallamreddy.github.io/WeatherForecast-Report/"
     },
     {
         "id":5,
         "name":"Disaster-Ready",
-        "image":"https://shravaniallamreddy.github.io/img/disasters.jpg",
+        "image":"/assets/img/disasters.jpg",
         "link":"https://aroseca15.github.io/Disaster-Ready/"
     },
     {
         "id":6,
         "name":"Fun things to do",
-        "image":"https://shravaniallamreddy.github.io/img/party.jpg",
+        "image":"/assets/img/party.jpg",
         "link":"https://ournewproject2.herokuapp.com/"
     }
 
