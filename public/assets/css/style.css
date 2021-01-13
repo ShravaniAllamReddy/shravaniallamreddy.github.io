@@ -149,7 +149,7 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url("../img/heroimage.jpg");
+  background-image: url("/assets/img/heroimage.jpg");
   background-repeat: no-repeat;
   height: 1030px;
   background-size: cover; 
