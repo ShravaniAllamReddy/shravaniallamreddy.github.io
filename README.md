@@ -65,7 +65,7 @@ If you navigate to home page, there are 3 hyperlinks which can navigate to the d
 
    Github Repo Link : https://github.com/ShravaniAllamReddy/Online-Offline-Budget-Tracker
 
-8. React Employee Directory: 
+8. React Employee Directory: This Application allows us to view entire employee directory at once so that one can have quick access to employee information.
 
    <img src= "./public/assets/img/reactdir.PNG" alt= "reactdirectory">
 
