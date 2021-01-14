@@ -41,6 +41,12 @@
         "name":"Budget Tracker",
         "image":"/assets/img/budget.png",
         "link":"https://fathomless-reaches-18510.herokuapp.com/"
+    },
+    {
+        "id":8,
+        "name":"React Directory",
+        "image":"/assets/img/directory.png",
+        "link":"https://shravaniallamreddy.github.io/ReactEmployeeDirectory/"
     }
 
 ]

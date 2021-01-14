@@ -65,6 +65,11 @@ If you navigate to home page, there are 3 hyperlinks which can navigate to the d
 
    Github Repo Link : https://github.com/ShravaniAllamReddy/Online-Offline-Budget-Tracker
 
+8. React Employee Directory: 
+
+   <img src= "./public/assets/img/reactdir.PNG" alt= "reactdirectory">
+
+   Github Repo Link : https://github.com/ShravaniAllamReddy/ReactEmployeeDirectory
 
 ## Sources Referred:
 
