@@ -1,18 +1,18 @@
-# Responsive Portfolio Using BootStrap
+# React Portfolio Using BootStrap
 
-<img src= "./public/assets/img/home.JPG" alt= "home">
+<img src= "./public/assets/img/reactportfoliodemo.gif" alt= "home">
 
 
 ## Description
 
 My Portfolio consists of links which jumps to About Me, Portfolio and Contact sections on the same page which are built using 
-Html, CSS and BootStrap to make it responsive.
+React.
 
 ## Usage
 
 If you navigate to home page, there are 3 hyperlinks which can navigate to the different sections on the same page.
   * Home/About me section consists of my photograph and biodata.
-  * Portfolio section consists of my work on workday-planner, weatherforecast report and project on disaster preparedness.
+  * Portfolio section consists of my work.
   * Contact section consists of Name, Email, Subject and Message where in you can submit your details to contact me.
   * There are social media links of my Linkedin profile and Github account on Home Page.
 
@@ -59,7 +59,7 @@ If you navigate to home page, there are 3 hyperlinks which can navigate to the d
 
    Github Repo Link : https://github.com/ShravaniAllamReddy/Note-Taker 
 
-6. Online-Offline Budget Tracker: This Progressive WebApplication provides offline access and functionality, it allows users to add expenses and deposits to their budget with or without connection.
+7. Online-Offline Budget Tracker: This Progressive WebApplication provides offline access and functionality, it allows users to add expenses and deposits to their budget with or without connection.
 
    <img src= "./public/assets/img/budgetdemo.gif" alt= "budgettracker">
 
