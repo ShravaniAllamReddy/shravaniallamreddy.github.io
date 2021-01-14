@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Responsive Portfolio Using BootStrap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src= "./public/assets/img/home.JPG" alt= "home">
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+My Portfolio consists of links which jumps to About Me, Portfolio and Contact sections on the same page which are built using 
+Html, CSS and BootStrap to make it responsive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If you navigate to home page, there are 3 hyperlinks which can navigate to the different sections on the same page.
+  * Home/About me section consists of my photograph and biodata.
+  * Portfolio section consists of my work on workday-planner, weatherforecast report and project on disaster preparedness.
+  * Contact section consists of Name, Email, Subject and Message where in you can submit your details to contact me.
+  * There are social media links of my Linkedin profile and Github account on Home Page.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Projects
 
-### `npm run build`
+1. Work-Day-Scheduler : Simple Calendar application that allows the user to save events for each hour of the day.This app will run in the browser and feature 
+   dynamically updated HTML and CSS powered by jQuery.
+    
+    <img src= "./public/assets/img/dayscheduler.JPG" alt= "dayplanner">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Github Repo Link : https://github.com/ShravaniAllamReddy/Work-Day-Scheduler
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. WeatherForecast-Report : This Application retrieves current and future conditions for selected cities using weather API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    <img src= "./public/assets/img/weather.JPG" alt= "fivedayforecast">
 
-### `npm run eject`
+    Github Repo Link : https://github.com/ShravaniAllamReddy/WeatherForecast-Report
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Disaster Ready :
+   This application is designed to compile external data and provide sources to users regarding disaster relief. A sizeable amount of the population is not prepared in the    event of a natural disaster. This product is designed to provide information to users who would like to prepare for natural disasters or those who have been directly affected by natural disasters. Preparation is a key component in order to reduce the impact of the disasters. Even without a disaster preparation plan this site is designed to provide current information regarding news, weather, airquality and other helpful information to users who have been affected by a natural disaster. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    <img src= "./public/assets/img/disasterready.jpg" alt= "disasters">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    Github Repo Link : https://github.com/aroseca15/Disaster-Ready
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Earthy-Burger:  EARTHY BURGER is a restaurant application that lets users to input the names of burgers they would like to eat and devour them.
+   
+    <img src= "./public/assets/img/burgerapp.JPG" alt= "burger">
 
-## Learn More
+    Github Repo Link : https://github.com/ShravaniAllamReddy/Eat-Da-Burger
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. LuuLuu Amici: A simple app for bored friends to find activities together using node.js, MySQL, and Handlebars.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    <img src= "./public/assets/img/screenshot1.png" alt= "funthings">
 
-### Code Splitting
+    <img src= "./public/assets/img/screenshot5.png" alt= "funthings">
+  
+    Github Repo Link : https://github.com/ShravaniAllamReddy/TeamAthena-Project2
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Note Taker: The application that can be used to write, save, and delete notes so that one can organize their thoughts and keep track of tasks that   they need to complete.
 
-### Analyzing the Bundle Size
+   <img src= "./public/assets/img/demo.gif" alt= "notetaker">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   Github Repo Link : https://github.com/ShravaniAllamReddy/Note-Taker 
 
-### Making a Progressive Web App
+6. Online-Offline Budget Tracker: This Progressive WebApplication provides offline access and functionality, it allows users to add expenses and deposits to their budget with or without connection.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   <img src= "./public/assets/img/budgetdemo.gif" alt= "budgettracker">
 
-### Advanced Configuration
+   Github Repo Link : https://github.com/ShravaniAllamReddy/Online-Offline-Budget-Tracker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Sources Referred:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://www.free-css.com/template-categories/portfolio
 
-### `npm run build` fails to minify
+https://lawsofux.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow
+
+
+## URL for Deployed Application
+
+https://shravaniallamreddy.github.io/
