@@ -47,6 +47,30 @@
         "name":"React Directory",
         "image":"/assets/img/directory.png",
         "link":"https://shravaniallamreddy.github.io/ReactEmployeeDirectory/"
+    },
+    {
+        "id":9,
+        "name":"Google Books Search",
+        "image":"/assets/img/books.jpg",
+        "link":"https://reactgooglebooksresults.herokuapp.com/"
+    },
+    {
+        "id":10,
+        "name":"Movie Night",
+        "image":"/assets/img/movie.png",
+        "link":"https://foodandmoviepolls.herokuapp.com/"
+    },
+    {
+        "id":11,
+        "name":"Fitness Tracker",
+        "image":"/assets/img/fitness.png",
+        "link":"https://safe-gorge-15049.herokuapp.com/"
+    },
+    {
+        "id":12,
+        "name":"ReadMe Generator",
+        "image":"/assets/img/readme.jpg",
+        "link":"https://github.com/ShravaniAllamReddy/README-Generator"
     }
 
 ]
