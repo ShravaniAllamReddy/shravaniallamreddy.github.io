@@ -1,4 +1,4 @@
-# React Portfolio Using BootStrap
+# React Portfolio
 
 <img src= "./public/assets/img/reactportfoliodemo.gif" alt= "home">
 
