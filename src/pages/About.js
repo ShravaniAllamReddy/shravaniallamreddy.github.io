@@ -1,18 +1,19 @@
 
 import React from "react";
 // import { Link } from 'react-router-dom';
+import { Container, Row, Col } from '../components/Grid';
 
 
 function About() {
     return (
 
         <section id="introduction" className="section-pad-top">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6">
+            <Container>
+                <Row>
+                    <Col size="md-6">
                         <img src="/assets/img/dp.png" alt="description" className="img-fluid intro-img" />
-                    </div>
-                    <div className="col-lg-6">
+                    </Col>
+                    <Col size="md-6">
                         <div className="intro-text-container">
                             <h2 className="primary mb-4 section-title">About Me</h2>
                             <p className="intro-text">
@@ -36,9 +37,9 @@ function About() {
                                 <a href="#work" className="intro-text btn btn-primary">Read More</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
         </section>
     )
 }
