@@ -1,66 +1,72 @@
 
 import React from "react";
 import Footer from "../components/Footer";
-
-
+import { Container, Row, Col } from '../components/Grid';
+import { Input, TextArea, FormBtn } from "../components/Form";
 
 function Contact() {
+
 
     return (
         <section id="contact-section" className="position footer-position bg-image">
             <div className="overlay"></div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-12">
+            <Container>
+                <Row>
+                    <Col size="sm-12">
                         <div id="contact" className="box-shadow-full">
-                            <div className="row">
-                                <div className="col-md-6">
+                            <Row>
+                                <Col size="md-6">
                                     <div className="title-box-2">
                                         <h5 className="title-left primary">
                                             Contact
                                         </h5>
-                                    </div>  
-                                    <div>
-                                        <form>
-                                            <div className="row">
-                                                <div className="col-md-12 mb-3">
-                                                    <div className="form-group">
-                                                        <input name="name" type="text" placeholder="Name" className="form-control" required />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-md-12 mb-3">
-                                                    <div className="form-group">
-                                                        <input type="text" className="form-control" placeholder="Email" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-md-12 mb-3">
-                                                    <div className="form-group">
-                                                        <input type="text" className="form-control" placeholder="Subject" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-md-12 mb-3">
-                                                    <div className="form-group">
-                                                        <textarea className="form-control" rows="3" placeholder="Message"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-md-12 mb-3">
-                                                    <div className="form-group">
-                                                        <button type="submit" className="btn btn-primary">Send Message</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
                                     </div>
-                                </div>
-                                <div className="col-md-6">
+
+                                    <form>
+                                        <Row>
+                                            <Col size="md-12">
+                                                <Input
+                                                    name="name"
+                                                    placeholder="Name"
+                                                />
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col size="md-12">
+                                                <Input
+                                                    name="email"
+                                                    placeholder="Email"
+                                                />
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col size="md-12">
+                                                <Input
+                                                    name="subject"
+                                                    placeholder="Subject"
+                                                />
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col size="md-12">
+                                                <TextArea
+                                                    name="Message"
+                                                    rows="3"
+                                                    placeholder="Type your message"
+                                                />
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col size="md-12">
+                                                <FormBtn>
+                                                    Send Message
+                                                </FormBtn>
+                                            </Col>
+                                        </Row>
+                                    </form>
+
+                                </Col>
+                                <Col size="md-6">
                                     <div className="title-box-2 pt-4 pt-md-0">
                                         <h5 className="title-left primary">
                                             Connect with me
@@ -86,15 +92,15 @@ function Contact() {
 
                                         </ul>
                                     </div>
-                                </div>
-                            </div>
+                                </Col>
+                            </Row>
                         </div>
 
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container >
             <Footer />
-        </section>
+        </section >
     )
 
 }
