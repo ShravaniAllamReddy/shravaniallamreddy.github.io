@@ -1,12 +1,38 @@
 
-import React from "react";
-import Footer from "../components/Footer";import { Container, Row, Col } from '../components/Grid';
+import React, { useState } from "react";
+import Footer from "../components/Footer";
+import { Container, Row, Col } from '../components/Grid';
 import { Input, TextArea, FormBtn } from "../components/Form";
+import axios from "axios";
 
-function Contact() {
+const Contact = () => {
+    // Setting our component's initial state
 
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        submitActivity();
+    };
+
+    const submitActivity = async () => {
+        await axios.post(
+            '/api/contacts',
+            {
+                name: name,
+                email: email,
+                subject: subject,
+                message: message
+            }
+        ).then({message: alert("your message is sent")})
+    }
 
     return (
+
         <section id="contact-section" className="position footer-position bg-image">
             <div className="overlay"></div>
             <Container>
@@ -21,11 +47,13 @@ function Contact() {
                                         </h5>
                                     </div>
 
-                                    <form>
+                                    <form onSubmit={handleSubmit}>
                                         <Row>
                                             <Col size="md-12">
                                                 <Input
+                                                    onChange={(event) => setName(event.target.value)}
                                                     name="name"
+                                                    value={name}
                                                     placeholder="Name"
                                                 />
                                             </Col>
@@ -33,7 +61,9 @@ function Contact() {
                                         <Row>
                                             <Col size="md-12">
                                                 <Input
-                                                    name="email"
+                                                    onChange={(event) => setEmail(event.target.value)}
+                                                    email="email"
+                                                    value={email}
                                                     placeholder="Email"
                                                 />
                                             </Col>
@@ -41,7 +71,9 @@ function Contact() {
                                         <Row>
                                             <Col size="md-12">
                                                 <Input
-                                                    name="subject"
+                                                    onChange={(event) => setSubject(event.target.value)}
+                                                    subject="subject"
+                                                    value={subject}
                                                     placeholder="Subject"
                                                 />
                                             </Col>
@@ -49,7 +81,9 @@ function Contact() {
                                         <Row>
                                             <Col size="md-12">
                                                 <TextArea
-                                                    name="Message"
+                                                    onChange={(event) => setMessage(event.target.value)}
+                                                    message="message"
+                                                    value={message}
                                                     rows="3"
                                                     placeholder="Type your message"
                                                 />
@@ -59,7 +93,7 @@ function Contact() {
                                             <Col size="md-12">
                                                 <FormBtn>
                                                     Send Message
-                                                </FormBtn>
+                                                    </FormBtn>
                                             </Col>
                                         </Row>
                                     </form>
@@ -100,9 +134,10 @@ function Contact() {
             </Container >
             <Footer />
         </section >
-    )
 
+    )
 }
+
 
 
 export default Contact;
