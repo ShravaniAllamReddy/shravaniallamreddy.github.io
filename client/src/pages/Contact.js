@@ -4,6 +4,27 @@ import Footer from "../components/Footer";
 import { Container, Row, Col } from '../components/Grid';
 import { Input, TextArea, FormBtn } from "../components/Form";
 import axios from "axios";
+import Dialog from '@material-ui/core/Dialog';
+import DialogContent from '@material-ui/core/DialogContent';
+// import DialogTitle from '@material-ui/core/DialogTitle';
+
+
+function SimpleDialog(props) {
+
+    const { onClose, open } = props;
+
+    const handleClose = () => {
+        onClose();
+    };
+
+
+    return (
+        <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
+            <DialogContent>Your message is sent</DialogContent>
+
+        </Dialog>
+    );
+}
 
 const Contact = () => {
     // Setting our component's initial state
@@ -12,6 +33,16 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [open, setOpen] = React.useState(false);
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = (value) => {
+        setOpen(false);
+
+    };
 
 
     const handleSubmit = (event) => {
@@ -28,7 +59,12 @@ const Contact = () => {
                 subject: subject,
                 message: message
             }
-        ).then({message: alert("your message is sent")})
+        );
+        setName('');
+        setEmail('');
+        setSubject('');
+        setMessage('');
+      
     }
 
     return (
@@ -91,9 +127,9 @@ const Contact = () => {
                                         </Row>
                                         <Row>
                                             <Col size="md-12">
-                                                <FormBtn>
-                                                    Send Message
-                                                    </FormBtn>
+                                            
+                                                <FormBtn onClick={handleClickOpen}>Send Message</FormBtn>
+                                                <SimpleDialog open={open} onClose={handleClose}/>
                                             </Col>
                                         </Row>
                                     </form>
