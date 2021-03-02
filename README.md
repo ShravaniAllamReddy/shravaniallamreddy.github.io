@@ -5,7 +5,7 @@
 ## Description
 
 My Portfolio consists of links which jumps to About Me, Portfolio and Contact sections on the same page which are built using
-React.
+MERN Stack.
 
 ## Usage
 
@@ -80,4 +80,4 @@ https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow
 
 ## URL for Deployed Application
 
-https://shravaniallamreddy.github.io/
+https://shravaniallamreddyportfolio.herokuapp.com/
