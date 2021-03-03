@@ -12,14 +12,11 @@ import DialogContent from '@material-ui/core/DialogContent';
 function SimpleDialog(props) {
 
     const { onClose, open } = props;
-
     const handleClose = () => {
         onClose();
     };
-
-
     return (
-        <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
+        <Dialog onClose={handleClose} open={open}>
             <DialogContent>Your message is sent</DialogContent>
 
         </Dialog>
@@ -127,7 +124,6 @@ const Contact = () => {
                                         </Row>
                                         <Row>
                                             <Col size="md-12">
-                                            
                                                 <FormBtn onClick={handleClickOpen}>Send Message</FormBtn>
                                                 <SimpleDialog open={open} onClose={handleClose}/>
                                             </Col>

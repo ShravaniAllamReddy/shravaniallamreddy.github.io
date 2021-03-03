@@ -17,20 +17,18 @@ function About() {
                         <div className="intro-text-container">
                             <h2 className="primary mb-4 section-title">About Me</h2>
                             <p className="intro-text">
-                                I have been working in the IT Industry for 4 years in developing and supporting applications with
-                                the help of Shell,Perl scripts for automating daily activities which we do in production support.
+                                Full Stack Web Developer applying IT background towards building functional server-side applications. 
+                                I have recently earned a certificate in Full Stack development Bootcamp from University of Arizona. 
                             </p>
                             <p className="intro-text">
-                                I am enthusiastic towards thinking creatively at my daily work. I have found that learning
-                                web-development is challenging and encourages me to think out of the box in required
-                                scenarios.Especially when working on a front end scripting enables me to see what I visualize in my
-                                mind, it is kind of amalgamation of technology and art.These kind of thoughts and ideas have
-                                nurtured my inclination towards being a full stack developer.So, here I am at the Boot Camp at
-                                University of Arizona, building a career on my thoughts and ideas to be a Full Stack developer.
-
+                                More than 4 years of experience in development and support of applications. 
+                                Experience in automating the application using Shell and Perl. 
+                                Worked with the deployment process and regression testing of the application. 
+                                Experience in developing web applications using MongoDB, HTML, CSS, JavaScript, jQuery, Node.js, React.js. 
+                                Designed Responsive Web pages using media queries and Bootstrap.
                             </p>
                             <p className="intro-text">
-                                <a href="https://drive.google.com/file/d/1sXLvwZOsun3Aw9zuaVBPZ3hkfa6uyioD/view?usp=sharing"
+                                <a href="https://drive.google.com/file/d/12Yf6ZLHdF0g6YQ496oelvGbjmiTjHPyo/view?usp=sharing"
                                     target="_blank" rel="noreferrer">Click Here to view my Resume</a>
                             </p>
                             <div>
