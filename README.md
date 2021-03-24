@@ -2,6 +2,10 @@
 
 <img src= "./img/reactportfoliodemo.gif" alt= "home">
 
+## Live Link
+- [My Portfolio deployed on Heroku](https://shravaniallamreddyportfolio.herokuapp.com/)
+- [My Portfolio deployed on github-pages](https://shravaniallamreddy.github.io/)
+
 ## Description
 
 My Portfolio consists of links which jumps to About Me, Portfolio and Contact sections on the same page which are built using
@@ -78,6 +82,6 @@ https://lawsofux.com/
 
 https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow
 
-## URL for Deployed Application
 
-https://shravaniallamreddyportfolio.herokuapp.com/
+
+
