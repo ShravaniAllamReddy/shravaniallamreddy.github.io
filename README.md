@@ -5,6 +5,7 @@
 ## Live Link
 - [My Portfolio deployed on Heroku](https://shravaniallamreddyportfolio.herokuapp.com/)
 - [My Portfolio deployed on github-pages](https://shravaniallamreddy.github.io/)
+- [My Portfolio deployed on netlify](https://shravaniallamreddy.netlify.app/)
 
 ## Description
 
